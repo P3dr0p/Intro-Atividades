@@ -3,15 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-	  inteiro i = 0
-	  
-	  enquanto(i <= 100){
-	  	
-	  	escreva("\nO valor de i: ",i)
-	  	
-	  	i++	
-	  }
-	  escreva(num)
+		inteiro num = 1
+
+		enquanto (num < 100){
+			escreva(num, "\n")
+			num+=2
+		}
+		escreva(num)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 150; 
+ * @POSICAO-CURSOR = 131; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
