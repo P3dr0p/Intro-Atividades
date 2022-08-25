@@ -19,7 +19,7 @@ programa
 		escreva("Digite o dobro: ")
 		leia(dobro)
 
-	     salinicial = 1.00 + 0.015 * 2
+	     salinicial = 1.000 + 0.015 * 2
 
 	     escreva("O valor do salario atual e de: ",salinicial)
 	}
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 736; 
+ * @POSICAO-CURSOR = 664; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
