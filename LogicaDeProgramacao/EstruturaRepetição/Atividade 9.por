@@ -1,18 +1,23 @@
-/* Faça um algoritmo que imprima na ordem crescente os números de 1 a 100. 
- *  (Saída 1, 2, 3, 4, 5, 6, 7 ... 98, 99, 100).​
+/* Escreva um programa que solicita 10 números ao usuário, através de um laço enquanto, 
+ * e ao final mostre qual destes números é o maior.
 */
 programa
 {
 	
 	funcao inicio()
 	{
-	inteiro num = 1000
+	  inteiro i
+	  inteiro num, maiorN = 0
 
-		enquanto (num > 100){
-			escreva(num, "\n")
-			num-=150
-		}
-		escreva(num)		
+       escreva("Digite os 10 números: \n")   
+	  para(i=1;i<=4;i++){
+	  	leia(num)
+
+	  	se(num > maiorN){
+	  		maiorN = num
+	  	}
+	  }
+	  escreva("O maior número: ",maiorN)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 266; 
+ * @POSICAO-CURSOR = 380; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
