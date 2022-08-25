@@ -1,16 +1,15 @@
-/* Faça um algoritmo de imprima na ordem decrescente os números de 1000 a 100. 
- *  Diminuindo de 150 em 150. (Saída 1000, 850, 700 ... 100).​
-*/
+/* Faça um algoritmo que mostra todos os números pares de 2 a 100.​*/
+
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num = 1000
+		inteiro num = 1
 
-		enquanto (num > 100){
+		enquanto (num < 100){
 			escreva(num, "\n")
-			num-=150
+			num-=2
 		}
 		escreva(num)
 	}
@@ -20,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 145; 
+ * @POSICAO-CURSOR = 177; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -16,10 +16,11 @@ programa
 	se(num > maiorM){
 		segundoM = maiorM
 	}
-	se(num > segundoM){
+	se(num > segundoM e num != maiorM){
 		segundoM = num
 	}
-	escreva("O primeiro maior número: ",maiorM)
+	i++
+	escreva("O primeiro maior número: ",maiorM, "-",segundoM)
      escreva("O segundo maior número: ",segundoM)
    }
 }
@@ -28,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 522; 
+ * @POSICAO-CURSOR = 557; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

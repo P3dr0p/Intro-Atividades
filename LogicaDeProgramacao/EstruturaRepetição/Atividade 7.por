@@ -1,18 +1,21 @@
-/* Faça um algoritmo de imprima na ordem decrescente os números de 1000 a 100. 
- *  Diminuindo de 150 em 150. (Saída 1000, 850, 700 ... 100).​
+/*​Faça um algoritmo que receba um número inteiro e mostra os pares e impares, 
+ * de 1 até esse numero inteiro.
 */
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num = 1000
+		inteiro i = 2
 
-		enquanto (num > 100){
-			escreva(num, "\n")
-			num-=150
-		}
-		escreva(num)
+		para(i ; i<= 100; i++)
+			se(i%2 == 0){
+				escreva("Esses números são pares",i,"\t")
+				}
+			senao{
+				escreva("Esses números são ímpares",i,"\n")
+			}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 145; 
+ * @POSICAO-CURSOR = 115; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
